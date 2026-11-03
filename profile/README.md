@@ -38,12 +38,8 @@ The Free plan includes the REST API and the MCP server, with 30 requests a minut
 - [MCP server](https://worldfeedmonitor.com/#mcp)
 - [Plans and pricing](https://worldfeedmonitor.com/#pricing)
 
-<!--
-Examples: list each one here only after it has been run against the live API.
-
 ### Examples
 
 - [worldfeedmonitor-python-example](https://github.com/World-Feed-Monitor/worldfeedmonitor-python-example): a small Python client for the REST API, with search, latest-news and CSV/JSON export scripts.
 - [worldfeedmonitor-nextjs-example](https://github.com/World-Feed-Monitor/worldfeedmonitor-nextjs-example): a global news dashboard in Next.js and TypeScript, calling the API from the server.
 - [worldfeedmonitor-mcp-agent-example](https://github.com/World-Feed-Monitor/worldfeedmonitor-mcp-agent-example): a Python research agent that searches the news through the MCP server and cites its sources.
--->
