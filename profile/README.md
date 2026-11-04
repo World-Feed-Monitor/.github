@@ -10,7 +10,7 @@ World Feed Monitor reads news sources worldwide, categorises and deduplicates th
 
 ### Get started
 
-1. Create a free account at [worldfeedmonitor.com/register](https://worldfeedmonitor.com/register). No card is needed. Confirm your email address.
+1. Create a free account at [worldfeedmonitor.com/register](https://worldfeedmonitor.com/register?utm_source=github). No card is needed. Confirm your email address.
 2. In the dashboard, create API credentials: a key and a secret.
 3. Make a request. Authentication is HTTP Basic, with the key as username and the secret as password:
 
@@ -26,17 +26,17 @@ claude mcp add --transport http worldfeedmonitor https://api.worldfeedmonitor.co
   --header "Authorization: Basic $(printf 'YOUR_API_KEY:YOUR_API_SECRET' | base64 | tr -d '\n')"
 ```
 
-To try a search before signing up, use the [API Playground](https://worldfeedmonitor.com/playground). It needs no key.
+To try a search before signing up, use the [API Playground](https://worldfeedmonitor.com/playground?utm_source=github). It needs no key.
 
 The Free plan includes the REST API and the MCP server, with 30 requests a minute, 1,000 a day and 10,000 a month, and the first 100 results of each search.
 
 ### Documentation
 
-- [API reference](https://worldfeedmonitor.com/docs)
+- [API reference](https://worldfeedmonitor.com/docs?utm_source=github)
 - [OpenAPI document](https://worldfeedmonitor.com/openapi.json)
-- [API Playground](https://worldfeedmonitor.com/playground)
-- [MCP server](https://worldfeedmonitor.com/#mcp)
-- [Plans and pricing](https://worldfeedmonitor.com/#pricing)
+- [API Playground](https://worldfeedmonitor.com/playground?utm_source=github)
+- [MCP server](https://worldfeedmonitor.com/?utm_source=github#mcp)
+- [Plans and pricing](https://worldfeedmonitor.com/?utm_source=github#pricing)
 
 ### Examples
 
