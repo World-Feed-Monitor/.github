@@ -5,7 +5,7 @@ News from publishers in every country and language, through one REST API or an M
 World Feed Monitor reads news sources worldwide, categorises and deduplicates their articles, and serves them as structured JSON. Every article comes with its publisher, country, language, topics, publication time and a link to the original. You query the news; you don't build or maintain the crawling.
 
 - **REST API.** Search by keywords, country, language, topic, publisher and date, with 25 results per page. Metadata endpoints list the countries, languages, topics and publishers you can filter by.
-- **MCP server.** Let an AI agent search the news directly with four tools: `search_news`, `get_latest_news`, `get_sources` and `get_coverage`. It works with clients that can send a request header, such as Claude Code, Cursor and VS Code.
+- **MCP server.** Let an AI agent search the news directly with four tools: `search_news`, `get_latest_news`, `get_publishers` and `get_coverage`. It works with clients that can send a request header, such as Claude Code, Cursor and VS Code.
 - **Worldwide on every plan.** Every plan reaches every country we cover, the Free plan included. Plans differ in volume, not coverage.
 
 ### Get started
@@ -16,7 +16,7 @@ World Feed Monitor reads news sources worldwide, categorises and deduplicates th
 
 ```bash
 curl -u "YOUR_API_KEY:YOUR_API_SECRET" \
-  "https://api.worldfeedmonitor.com/v1/feeds/search?keywords=energy&country=DE"
+  "https://api.worldfeedmonitor.com/v1/articles/search?keywords=energy&country=DE"
 ```
 
 Or connect an AI agent over MCP, with the same credentials:
